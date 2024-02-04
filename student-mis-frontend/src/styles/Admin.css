@@ -1,0 +1,139 @@
+/* Updated styles for a refreshed UI */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #2196F3;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+header button:hover {
+  background-color: #c9302c;
+}
+
+.profile-picture img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+nav {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav li:hover {
+  background-color: #333;
+}
+
+nav li.active {
+  background-color: #333;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.admin-section {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-section th,
+.admin-section td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.admin-section th {
+  background-color: #f2f2f2;
+}
+
+.admin-section tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.admin-section .action-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-section button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.admin-section button:hover {
+  background-color: #c9302c;
+}
+
+.admin-section .update-button {
+  background-color: #5bc0de;
+  margin-left: 5px;
+}
+
+.admin-section .update-button:hover {
+  margin-top: 5px;
+  background-color: #46b8da;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
